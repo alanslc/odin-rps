@@ -1,14 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
 
+   <link rel="stylesheet" href="style/style.css">
 </head>
-<body>
 
+<body>
+   <div class="container">
+      <div class="choices">
+         <a href="#" class="choice rock">
+            <img src="images/rock.png" class="image rock" id="rock">
+         </a>
+         <a href="#" class="choice paper">
+            <img src="images/paper.png" class="image paper" id="paper">
+         </a>
+         <a href="#" class="choice scissors">
+            <img src="images/scissors.png" class="image scissors" id="scissors">
+         </a>
+      </div>
+      <div class="welcome">Welcome to Rock Paper Scissors Game</div>
+      <div id="msg"></div>
+      <div class="score-board">
+         <div>You &gt;&gt;</div>
+         <div id="player-score"></div>
+         <div> : </div>
+         <div id="computer-score"></div>
+         <div>&lt;&lt; CPU </div>
+      </div>
+      <div id="win-msg"></div>
+   </div>
    <script src="scripts/rps.js"></script>
 </body>
+
 </html>

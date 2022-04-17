@@ -1,0 +1,66 @@
+.container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.choices {
+   display: flex;
+   justify-content: center;
+   gap: 32px;
+   margin-bottom: 48px;
+}
+
+img.choice-img {
+   /* flex: ; */
+}
+
+.image {
+   border-radius: 50px;
+   border-width: 4px;
+   border-style: solid;
+   border-color: rgba(0, 0, 0, 0);
+}
+
+.image.rock:hover {
+   border-color: rgba(242, 102, 81, 0.3);
+}
+
+.image.paper:hover {
+   border-color: rgba(99, 189, 186, 0.3);
+}
+
+.image.scissors:hover {
+   border-color: rgba(246, 189, 74, 0.3);
+}
+
+.welcome {
+   font-size: 32px;
+   font-weight: bold;
+   text-align: center;
+   margin-bottom: 32px;
+}
+
+#msg {
+   font-size: 28px;
+   font-weight: bold;
+   text-align: center;
+   margin-bottom: 32px;
+}
+
+#win-msg {
+   font-size: 36px;
+   font-weight: bold;
+   text-align: center;
+}
+
+.score-board {
+   display: flex;
+   justify-content: center;
+   gap: 32px;
+   margin-bottom: 32px;
+}
+
+.score-board div {
+   font-size: 32px;
+}
